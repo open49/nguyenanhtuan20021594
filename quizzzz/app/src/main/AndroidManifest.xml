@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Quizzzz"
+        tools:targetApi="31">
+        <activity
+            android:name=".lichsuchoi"
+            android:exported="false"
+            android:label="Lịch sử chơi">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".thongtin"
+            android:exported="false"
+            android:label="Thông tin">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau5denghethuat"
+            android:exported="false"
+            android:label="Câu 5">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau4denghethuat"
+            android:exported="false"
+            android:label="Câu 4">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau3denghethuat"
+            android:exported="false"
+            android:label="Câu 3">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau2denghethuat"
+            android:exported="false"
+            android:label="Câu 2">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau1denghethuat"
+            android:exported="false"
+            android:label="Câu 1">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau5dekhoahoc"
+            android:exported="false"
+            android:label="Câu 5">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau4dekhoahoc"
+            android:exported="false"
+            android:label="Câu 4">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau3dekhoahoc"
+            android:exported="false"
+            android:label="Câu 3">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau2dekhoahoc"
+            android:exported="false"
+            android:label="Câu 2">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau1dekhoahoc"
+            android:exported="false"
+            android:label="Câu 1">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau5delichsu"
+            android:exported="false"
+            android:label="Câu 5">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau4delichsu"
+            android:exported="false"
+            android:label="Câu 4">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau3delichsu"
+            android:exported="false"
+            android:label="Câu 3">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau2delichsu"
+            android:exported="false"
+            android:label="Câu 2">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau1delichsu"
+            android:exported="false"
+            android:label="Câu 1">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau5khodialy"
+            android:exported="false"
+            android:label="Câu 5">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau4khodialy"
+            android:exported="false"
+            android:label="Câu 4">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau3khodialy"
+            android:exported="false"
+            android:label="Câu 3">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau2khodialy"
+            android:exported="false"
+            android:label="Câu 2">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau1khodialy"
+            android:exported="false"
+            android:label="Câu 1">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau5vuadialy"
+            android:exported="false"
+            android:label="Câu 5">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau4vuadialy"
+            android:exported="false"
+            android:label="Câu 4">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau3vuadialy"
+            android:exported="false"
+            android:label="Câu 3">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau2vuadialy"
+            android:exported="false"
+            android:label="Câu 2">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau1vuadialy"
+            android:exported="false"
+            android:label="Câu 1">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".hoanthanh"
+            android:exported="false"
+            android:label="Chúc mừng bạn đã hoàn thành">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau5dedialy"
+            android:exported="false"
+            android:label="Câu 5">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau4dedialy"
+            android:exported="false"
+            android:label="Câu 4">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau3dedialy"
+            android:exported="false"
+            android:label="Câu 3">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau2dedialy"
+            android:exported="false"
+            android:label="Câu 2">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".cau1dedialy"
+            android:exported="false"
+            android:label="Câu 1">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".nghethuat"
+            android:exported="false"
+            android:label="Nghệ thuật">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".khoahoc"
+            android:exported="false"
+            android:label="Khoa học">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".lichsu"
+            android:exported="false"
+            android:label="Lịch sử">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".dialy"
+            android:exported="false"
+            android:label="Địa Lý">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Quizz">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>
